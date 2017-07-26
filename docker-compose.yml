@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  ssacore:
+    image: ssacore
+    build:
+      context: ./ssacore
+      dockerfile: Dockerfile
